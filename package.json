@@ -1,0 +1,23 @@
+{
+  "description": "Compare mesos/k8s indices",
+  "devDependencies": {
+    "aberlaas": "0.0.12",
+    "algoliasearch": "3.30.0",
+    "dotenv": "6.2.0",
+    "golgoth": "0.0.11"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "name": "diff",
+  "scripts": {
+    "build": "aberlaas build",
+    "build:watch": "aberlaas build --watch",
+    "lint": "aberlaas lint",
+    "lint:fix": "aberlaas lint --fix",
+    "release": "aberlaas release",
+    "run": "babel-node --max-old-space-size=4096 ./index.js",
+    "test": "aberlaas test",
+    "test:watch": "aberlaas test --watch"
+  },
+  "version": "1.0.0"
+}

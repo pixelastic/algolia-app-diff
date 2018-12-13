@@ -9,3 +9,5 @@ tmp
 yarn-error.log
 yalc.lock
 *~
+dist
+.env
