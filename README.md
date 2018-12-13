@@ -1,0 +1,2 @@
+# algolia-app-diff
+
